@@ -8,11 +8,11 @@ import datetime
 import csv
 
 # ——— Config ———
-MAX_SAMPLES = 200_00
-CHUNK_SIZE  = 20_000
+MAX_SAMPLES = 10_000
+CHUNK_SIZE  = 10_000
 PREFIX      = "coinpan_free_sample"
 BASE_URL    = "https://coinpan.com/index.php?mid=free&page={}"
-PAGE_STEP   = 25
+PAGE_STEP   = 50
 TIMEOUT     = 20  # seconds
 HEADERS     = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
