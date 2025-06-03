@@ -1,0 +1,26 @@
+# Java Runtime for KoNLPy
+java/
+openjdk-*.zip
+*.jdk
+jdk*/
+# Java 실행 파일
+java.exe
+javac.exe
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
