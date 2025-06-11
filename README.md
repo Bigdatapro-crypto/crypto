@@ -4,16 +4,26 @@
 
 ---
 
-## ⚙️ 0. 환경설정 🛠️
+## ⚙️ 0. 환경설정 안내 및 설치 🛠️
 
-* **Python**: 버전 3.1 이상 권장 🐍
+### 🚀 Repository
+- **주소**: https://github.com/Bigdatapro-crypto/crypto  
+- **주요 실행 파일**  
+  ## - `Report.ipynb` → 전체 코드 파일
+  ## - `DataAnalysis.ipynb` → 커뮤니티 전처리 및 분석 (별도 분리)
+
+> 💡 커뮤니티 데이터가 방대하여 별도 파일로 구성
+
+---
+
+* **Python**: 버전 3.11 이상 권장 🐍
 * **Jupyter Notebook**: 노트북 환경 실행을 위해 설치 💡
 * **라이브러리**: `pandas`, `numpy`, `konlpy`, `selenium`, `requests` 등
 
   * 자세한 버전 정보는 `requirements.txt` 파일을 참고
 
   ```bash
-  pip install pandas numpy konlpy selenium requests
+  pip install fake-useragent aiohttp requests beautifulsoup4 pandas tqdm numpy matplotlib seaborn plotly scikit-learn tensorflow koreanize-matplotlib konlpy wheel JPype1
   ```
 * **Java 설정**: KoNLPy 사용을 위해 `JAVA_OPTS` 환경 변수 설정 ⚙️
 
