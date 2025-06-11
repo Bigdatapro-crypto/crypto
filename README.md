@@ -4,6 +4,20 @@
 
 ---
 
+## ⚙️ 0. 환경설정 🛠️
+
+- **Python**: 버전 3.8 이상 권장 🐍
+- **Jupyter Notebook**: 노트북 환경 실행을 위해 설치 💡
+- **라이브러리**: `pandas`, `numpy`, `konlpy`, `selenium`, `requests` 등
+  ```bash
+  pip install pandas
+  ...
+  ```
+- **Java 설정**: KoNLPy 사용을 위해 `JAVA_OPTS` 환경 변수 설정 ⚙️
+  ```bash
+  export JAVA_OPTS='-Xmx4g -Xms1g'
+  ```
+
 ## 📂 1. 데이터 수집 🛠️
 
 ### 🌐 커뮤니티 🗣️
