@@ -13,7 +13,7 @@ BASE_FILTER_URL = (
     "https://etherscan.io/advanced-filter?"
     "tkn=0xdac17f958d2ee523a2206206994597c13d831ec7"
     "&txntype=2"
-    "&amt=20000000~999999999"
+    "&amt=16000000~999999999"
     "&age=2020-01-01~2025-04-30"
     "&ps=100"
 )
