@@ -13,7 +13,7 @@
   * 자세한 버전 정보는 `requirements.txt` 파일을 참고
 
   ```bash
-  pip install pandas numpy konlpy selenium requests
+  pip install fake-useragent aiohttp requests beautifulsoup4 pandas tqdm numpy matplotlib seaborn plotly scikit-learn tensorflow koreanize-matplotlib konlpy wheel JPype1
   ```
 * **Java 설정**: KoNLPy 사용을 위해 `JAVA_OPTS` 환경 변수 설정 ⚙️
 
